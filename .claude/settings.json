@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "mcp__5dc6cc06-8db6-4aff-af1f-36f67b5f0648__search_files",
+      "mcp__5dc6cc06-8db6-4aff-af1f-36f67b5f0648__list_recent_files",
+      "mcp__5dc6cc06-8db6-4aff-af1f-36f67b5f0648__get_file_metadata",
+      "mcp__5dc6cc06-8db6-4aff-af1f-36f67b5f0648__read_file_content",
+      "mcp__5dc6cc06-8db6-4aff-af1f-36f67b5f0648__get_file_permissions",
+      "mcp__fe4c5c30-0346-42c4-8e63-28f211c78c80__search_threads",
+      "mcp__fe4c5c30-0346-42c4-8e63-28f211c78c80__list_labels",
+      "mcp__fe4c5c30-0346-42c4-8e63-28f211c78c80__get_thread",
+      "mcp__fe4c5c30-0346-42c4-8e63-28f211c78c80__list_drafts"
+    ]
+  }
+}
